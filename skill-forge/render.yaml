@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: skill-forge-backend
+    env: python
+    plan: free
+    buildCommand: |
+      cd backend
+      uv pip install -r requirements.txt
+    startCommand: |
+      cd backend
+      uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: UV_SYSTEM_PYTHON
+        value: "1"
