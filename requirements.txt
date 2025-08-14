@@ -1,0 +1,24 @@
+# Workspace version: 1.46.34
+python-multipart==0.0.9
+databutton>=0.39
+ipykernel==6.29.5
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+openai
+beautifulsoup4
+requests
+asyncpg
+psutil
+redis
+prometheus-client
+scikit-learn
+scipy
+aiohttp
+scrapy
+lxml
+networkx
+tensorflow
+matplotlib
+sympy
+z3-solver
+pandas
