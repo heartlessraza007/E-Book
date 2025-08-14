@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ebook-backend
+    name: skill-forge-backend
     env: python
     plan: free
     rootDir: skill-forge/backend
@@ -9,3 +9,4 @@ services:
     envVars:
       - key: ENVIRONMENT
         value: production
+    pythonVersion: 3.11.9
